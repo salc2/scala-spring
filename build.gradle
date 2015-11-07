@@ -1,0 +1,13 @@
+apply plugin: 'scala'
+apply plugin: 'application'
+
+mainClassName = "hello.GreetingController"
+
+dependencies{
+        compile 'org.scala-lang:scala-library:2.11.7'
+        compile 'org.springframework.boot:spring-boot-starter-web:1.2.5.RELEASE'
+}
+
+repositories {
+    mavenCentral()
+}
