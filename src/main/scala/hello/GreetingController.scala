@@ -11,7 +11,7 @@ class GreetingController {
 
     @RequestMapping(value = "/greeting")
     @RequestParam(value = "name", defaultValue = "World")
-    def greeting(String name) = {
+    def greeting(name:String) = {
 	val id = counter.incrementAndGet()
 	Greeting(id, s"Hello, $name" )
 	}
