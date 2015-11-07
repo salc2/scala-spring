@@ -7,5 +7,5 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 object Application {
 
     def main(args:Array[String]) =
-        SpringApplication.run(Application.getClass, args)
+        SpringApplication.run(Application.getClass)
 }
