@@ -1,7 +1,7 @@
 apply plugin: 'scala'
 apply plugin: 'application'
 
-mainClassName = "hello.GreetingController"
+mainClassName = "hello.Application"
 
 dependencies{
         compile 'org.scala-lang:scala-library:2.11.7'
